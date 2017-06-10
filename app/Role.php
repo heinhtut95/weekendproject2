@@ -4,10 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Role extends Model
-{
-    //
-    protected $casts = [
-    	'permissions' => 'array'
-    ];
+/*Role Controller*/
+class Role extends Model {
+	//
+	protected $casts = [
+		'permissions' => 'array',
+	];
 }
